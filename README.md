@@ -210,6 +210,8 @@ Includes:
 ---
 
 # Project Structure
+
+```text
 Sales Analytics/
 │
 ├── Dashboard/
@@ -219,8 +221,6 @@ Sales Analytics/
 ├── Data/
 │   ├── raw_data.csv
 │   └── cleaned_data.csv
-│
-├── Docs/
 │
 ├── Images/
 │   ├── sales_overview.png
@@ -235,8 +235,7 @@ Sales Analytics/
 │   └── sales_analysis.sql
 │
 └── README.md
-
----
+```
 
 # Skills Demonstrated
 
