@@ -5,23 +5,25 @@
 
 ## Project Overview
 
-This project is an end-to-end sales analytics solution designed to transform raw sales data into actionable business insights.
+This project is an end-to-end sales analytics solution that transforms raw transactional data into actionable business insights.
 
-The project follows a complete data analytics workflow:
+The project follows a complete analytics workflow:
 
-**Data Cleaning → Data Analysis → Data Visualisation**
+**Data Cleaning → Exploratory Analysis → Business Intelligence Reporting**
 
-Using **Python**, **SQL**, and **Power BI**, I cleaned and prepared the dataset, performed exploratory analysis to identify key business insights, and developed an interactive dashboard to analyse sales performance, product profitability, customer behaviour, and regional trends.
+Using **Python**, **SQL**, and **Power BI**, I cleaned and prepared the dataset, performed exploratory analysis to identify trends and performance drivers, and developed an interactive dashboard analysing sales performance, product profitability, customer behaviour, and regional performance.
+
+The objective was to demonstrate how data can be transformed into meaningful insights that support business decision-making.
 
 ---
 
 # Executive Summary KPIs
 
-* **Total Revenue:** £2.33M[cite: 1]
-* **Total Profit:** £292.30K[cite: 1]
-* **Profit Margin:** 12.56%[cite: 1]
-* **Total Orders:** 5K[cite: 1]
-* **Average Order Value (AOV):** £455.20[cite: 1]
+* **Total Revenue:** £2.33M
+* **Total Profit:** £292.30K
+* **Profit Margin:** 12.56%
+* **Total Orders:** 5K
+* **Average Order Value (AOV):** £455.20
 
 ---
 
@@ -107,52 +109,53 @@ An interactive Power BI report was created to present key insights through multi
 
 ## Sales Performance Overview
 
-Provides a high-level summary of business performance.
+Provides an executive-level summary of overall business performance.
 
 Includes:
 
-* High-level executive KPIs (£2.33M Sales, £292.30K Profit, 12.56% Margin across 5K Orders)[cite: 1]
-* Monthly sales trends highlighting seasonal patterns[cite: 1]
-* Sales and profit comparisons across Technology (~£1.0M sales), Furniture, and Office Supplies categories[cite: 1]
-* Regional revenue highlights led by the West region[cite: 1]
+* Executive KPIs including total revenue, profit, profit margin, orders, and average order value
+* Monthly sales trends to identify changes in performance over time
+* Category-level analysis comparing revenue and profitability across Technology, Furniture, and Office Supplies
+* Regional performance analysis highlighting key revenue contributors
 
 ---
 
 ## Product Performance Analysis
 
-Focuses on product-level performance and profitability.
+Analyses product-level performance to understand which products drive revenue and profitability.
 
 Includes:
 
-* Analysis of top-performing items like the **Canon imageCLASS 2200 Advanced Copier** (£62K sales, £25K profit)[cite: 1]
-* Identification of high-sales, negative-margin items such as the **Cisco TelePresence System EX90** (-£2K profit)[cite: 1]
-* Product-level scatter plots evaluating sales volume against net margin[cite: 1]
+* Identification of top-performing products by sales and profit
+* Comparison of revenue generation against profitability
+* Scatter plot analysis highlighting products with strong sales performance but weaker profit contribution
+* Identification of potential opportunities for improving product profitability
 
 ---
 
 ## Customer Analysis
 
-Explores customer behaviour and segment contributions.
+Explores customer behaviour, purchasing patterns, and value contribution.
 
 Includes:
 
-* Total customer metrics including an Average Customer Spend of £2.91K[cite: 1]
-* Revenue breakdown across Consumer, Corporate, and Home Office segments[cite: 1]
-* Top individual accounts by revenue, led by **Sean Miller** (£25K sales)[cite: 1]
-* Profitability analysis identifying high-margin individual accounts like **Tamara Chand**[cite: 1]
+* Customer-level performance metrics including average spend and order behaviour
+* Revenue comparison across Consumer, Corporate, and Home Office segments
+* Identification of highest-value customers by revenue
+* Analysis of customer profitability to highlight differences between sales volume and business value
 
 ---
 
 ## Regional Performance Analysis
 
-Examines geographic differences in business performance.
+Examines geographic differences in sales performance and profitability.
 
 Includes:
 
-* Regional revenue distribution led by **West** (£739.81K) and **East** (£691.83K)[cite: 1]
-* Regional profit comparison highlighting **West** (£111K) as the most profitable market[cite: 1]
-* Top state analysis led by **California** (£0.46M sales, £76K profit) and **New York** (£0.31M sales, £74K profit)[cite: 1]
-* Geographic map visualisations tracking sales distribution[cite: 1]
+* Revenue and profit comparisons across regions
+* State-level analysis identifying key contributors to overall performance
+* Geographic visualisations showing sales distribution
+* Identification of regions with opportunities for improving profitability
 
 ---
 
@@ -170,27 +173,39 @@ Includes:
 
 # Key Insights
 
-### 1. Product Performance & Profitability Discrepancies
-* **Top Overall Performer:** The **Canon imageCLASS 2200 Advanced Copier** is the single best product by a wide margin, generating **£62K in sales** and **£25K in profit**[cite: 1].
-* **Revenue vs. Profit Mismatch:** High revenue does not always equal profitability[cite: 1]. For example, the **Cisco TelePresence System EX90** generated **£23K** in sales but operated at a **-£2K loss**[cite: 1]. Similarly, the **GBC DocuBind P400** yielded high sales (~£18K–£19K) but resulted in a **-£2K profit loss**[cite: 1].
-* **Category Dynamics:** **Technology** drives overall growth with ~£1.0M in sales and ~£145K in total profit[cite: 1]. Conversely, **Furniture** generates strong revenue (~£0.75M) but yields the lowest profit (~£20K), indicating thin margins or high overhead costs[cite: 1].
+## 1. Product Performance & Profitability
 
-### 2. Regional Insights
-* **Top Geographic Markets:** The **West** region leads all territories in revenue (**£739.81K**) and total profit (**£111K**)[cite: 1].
-* **Key State Drivers:** **California** (**£0.46M sales**, **£76K profit**) and **New York** (**£0.31M sales**, **£74K profit**) are the primary performance drivers[cite: 1].
-* **Margin Drag Areas:** While **Texas** ranks 3rd in total revenue (**£0.17M**), it is noticeably absent from the top 10 most profitable states, signaling thin margins or steep discounting[cite: 1].
+* The **Canon imageCLASS 2200 Advanced Copier** was the highest-performing product, generating approximately **£62K in sales** and **£25K in profit**.
+* High revenue did not always translate into profitability. Products such as the **Cisco TelePresence System EX90** generated significant sales (**£23K**) but resulted in a loss (**-£2K profit**), highlighting the importance of analysing profitability alongside revenue.
+* The **Technology** category was the strongest overall performer, generating approximately **£1.0M in sales** and **£145K in profit**, while **Furniture** generated similar revenue levels but significantly lower profitability.
 
-### 3. Customer & Segment Insights
-* **Segment Volume:** The **Consumer** segment contributes the highest total sales volume, followed by **Corporate** and **Home Office**[cite: 1].
-* **Account Efficiency:** Account revenue does not always correlate to profit[cite: 1]. **Sean Miller** generated the highest sales volume (~£25K) but delivered a near-zero/negative profit margin, whereas **Tamara Chand** delivered exceptionally high profit margins relative to sales volume[cite: 1].
+## 2. Regional Performance
+
+* The **West region** was the strongest-performing region, generating approximately **£739.81K in sales** and **£111K in profit**.
+* **California** and **New York** were the largest state-level contributors, generating approximately **£0.46M** and **£0.31M** in sales respectively.
+* Some high-revenue locations showed weaker profitability, highlighting opportunities to investigate pricing strategies, discounting, and cost structures.
+
+## 3. Customer & Segment Insights
+
+* The **Consumer** segment generated the highest sales volume, making it the largest contributor to overall revenue.
+* Customer revenue and profitability were not always aligned. Some high-revenue customers generated relatively low profit, demonstrating the importance of evaluating customer value beyond sales volume.
+* Customer profitability analysis highlighted opportunities to identify and retain high-value accounts.
 
 ---
 
 # Strategic Recommendations
 
-1. **Re-evaluate Product Pricing & Discounting:** Adjust pricing models or vendor terms for unprofitable products like the **Cisco TelePresence System** and **GBC DocuBind P400** to eliminate profit drag[cite: 1].
-2. **Optimize Furniture Category Margins:** Review production/shipping costs or discounting structures in the **Furniture** category to improve overall return[cite: 1].
-3. **Address Regional Inefficiencies:** Investigate state-level cost drivers in **Texas** to understand why high revenue isn't translating into bottom-line profit[cite: 1].
+1. **Improve Product Profitability**
+   - Review pricing, discounting, and cost structures for products generating strong sales but limited or negative profitability.
+   - Investigate products such as the **Cisco TelePresence System EX90** and **GBC DocuBind P400** to identify opportunities to improve margins.
+
+2. **Optimise Category Performance**
+   - Analyse the drivers behind lower Furniture profitability, including discount levels, product costs, and operational expenses.
+   - Identify opportunities to improve margins while maintaining sales performance.
+
+3. **Investigate Regional Profitability Differences**
+   - Explore why some high-revenue regions generate comparatively lower profit.
+   - Analyse regional discounting patterns, product mix, and operational factors to identify improvement opportunities.
 
 ---
 
@@ -253,4 +268,6 @@ Potential improvements to extend this project:
 
 **Ben McDonald**
 
-Aspiring Data Analyst with experience in Python, SQL, Power BI, and data visualisation.
+Aspiring Data Analyst specialising in **Python, SQL, Power BI, and data visualisation**.
+
+This project demonstrates my ability to clean, analyse, and communicate data-driven insights through an end-to-end analytics workflow.
